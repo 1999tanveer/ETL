@@ -3,13 +3,11 @@
 
 # In[163]:
 
-
 #pip install supabase
-
 
 # In[248]:
 
-
+#Import Libraries
 import requests
 from datetime import date
 import datetime
@@ -18,7 +16,7 @@ from supabase import create_client, Client
 
 # In[249]:
 
-
+#Connect strings to supabase data warehouse
 url=""
 key=""
 
@@ -27,7 +25,7 @@ supabase_conn= create_client(url, key)
 
 # In[252]:
 
-
+#Logging setup
 import logging
 logger = logging.getLogger()
 loghandler = logging.FileHandler(filename='StockAnalysis_log.log', mode='a')
@@ -45,18 +43,19 @@ logging.info('Logs for Stock Analysis ETL Process')
 
 today = date.today()
 today=today-datetime.timedelta(days=11)
-print("Today's date:", today)
+#print("Today's date:", today)
 
 
 # In[204]:
 
+#Check if yesterday is working day or not using Rapid Api
 
 url_day = "https://working-days.p.rapidapi.com/1.3/get_info_day"
 
 querystring = {"country_code":"US","date":today-datetime.timedelta(days=1),"configuration":"Federal holidays"}
 
 headers = {
-	"X-RapidAPI-Key": "50033bb69cmshcdb1dfd03d87915p1bd957jsnd26aeee15a5c",
+	"X-RapidAPI-Key": "",
 	"X-RapidAPI-Host": "working-days.p.rapidapi.com"
 }
 
