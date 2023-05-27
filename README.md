@@ -18,11 +18,15 @@ Python 3.x PostgreSQL database Required Python libraries:  requests, datetime, s
 
 Update the DATABASE variable with your database connection details and other API credentials in the code.
 
-The python script performs transformations and calculates Moving average statistical values for the stock prices. Feel free to change the values SMA and LMA to modidy the no of days for moving average.
+THe Rapid API is used to check if yesterday was a working day or not. If yesterday was a holiday it means there was no stock market transactions happened hence the script doesnt run and logs the date as holiday in local logs.
+
+The Alpha Vantage API is used to extract the last 100 stock price details of the mentioned stock. "IBM" is configured for analysis.
 
 The python code can be scheduled to run daily based on specific time from windows task scheduler. Or can be triggered manually.
 
 The logs and outputs are logged in "StockAnalysis_log.log".
+
+The python script performs transformations and calculates Moving average statistical values for the stock prices. Feel free to change the values SMA and LMA to modidy the no of days for moving average. Which is further loaded into the online db.
 
 Once the ETL process is complete, you can access the transformed data in the online Supabase database.
 
