@@ -81,6 +81,7 @@ if (response.json()['working_day']==1) :
 
     #print(data)
 
+    #Variables for Moving Average
     SMA_nValue= 3
     LMA_nValue=10
     leaveDays=0
