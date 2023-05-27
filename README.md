@@ -39,4 +39,4 @@ Explore additional APIs or data sources and modify the extraction process accord
 
 License This project is licensed under the MIT License.
 
-Acknowledgments The Utelly API, Rapid API, and Unogs API for providing access to movie and TV show data. Pandas, an open-source data manipulation library for Python. PostgreSQL, a powerful open-source relational database management system. Feel free to update the README file with additional information or sections based on your project's specific needs.
+Acknowledgments Rapid API, Alpha Vantage API, Supabase and Grafana for providing access to data, platform and softwares. 
