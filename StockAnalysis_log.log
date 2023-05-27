@@ -1,0 +1,73 @@
+Logs for Stock Analysis ETL Process
+Extract Operation for2023-04-30
+Transformted Data:SMA -126.410LMA -126.453
+Load operation output:data=[{'Date': '2023-04-30', 'SMA': 126.41, 'LMA': 126.453, 'created_at': '2023-05-26T16:07:07.151316+00:00'}] count=None
+Extract Operation for2023-05-01
+Transformted Data:SMA -126.490LMA -126.280
+Load operation output:data=[{'Date': '2023-05-01', 'SMA': 126.49, 'LMA': 126.28, 'created_at': '2023-05-26T16:07:07.504204+00:00'}] count=None
+Extract Operation for2023-05-02
+Transformted Data:SMA -125.887LMA -126.018
+Load operation output:data=[{'Date': '2023-05-02', 'SMA': 125.887, 'LMA': 126.018, 'created_at': '2023-05-26T16:07:08.421878+00:00'}] count=None
+Extract Operation for2023-05-03
+Transformted Data:SMA -124.900LMA -125.731
+Load operation output:data=[{'Date': '2023-05-03', 'SMA': 124.9, 'LMA': 125.731, 'created_at': '2023-05-26T16:07:09.323938+00:00'}] count=None
+Extract Operation for2023-05-04
+Transformted Data:SMA -123.727LMA -125.352
+Load operation output:data=[{'Date': '2023-05-04', 'SMA': 123.727, 'LMA': 125.352, 'created_at': '2023-05-26T16:07:09.681621+00:00'}] count=None
+Extract Operation for2023-05-05
+Transformted Data:SMA -123.223LMA -125.144
+Load operation output:data=[{'Date': '2023-05-05', 'SMA': 123.223, 'LMA': 125.144, 'created_at': '2023-05-26T16:07:10.054608+00:00'}] count=None
+Holiday -2023-05-06
+Holiday -2023-05-07
+Extract Operation for2023-05-08
+Transformted Data:SMA -123.207LMA -124.944
+Load operation output:data=[{'Date': '2023-05-08', 'SMA': 123.207, 'LMA': 124.944, 'created_at': '2023-05-26T16:07:11.645173+00:00'}] count=None
+Extract Operation for2023-05-09
+Transformted Data:SMA -122.740LMA -124.472
+Load operation output:data=[{'Date': '2023-05-09', 'SMA': 122.74, 'LMA': 124.472, 'created_at': '2023-05-26T16:07:12.005288+00:00'}] count=None
+Extract Operation for2023-05-10
+Transformted Data:SMA -122.197LMA -124.089
+Load operation output:data=[{'Date': '2023-05-10', 'SMA': 122.197, 'LMA': 124.089, 'created_at': '2023-05-26T16:07:12.359334+00:00'}] count=None
+Extract Operation for2023-05-11
+Transformted Data:SMA -121.363LMA -123.482
+Load operation output:data=[{'Date': '2023-05-11', 'SMA': 121.363, 'LMA': 123.482, 'created_at': '2023-05-26T16:07:12.73025+00:00'}] count=None
+Extract Operation for2023-05-12
+Transformted Data:SMA -121.920LMA -123.125
+Load operation output:data=[{'Date': '2023-05-12', 'SMA': 121.92, 'LMA': 123.125, 'created_at': '2023-05-26T16:07:13.074604+00:00'}] count=None
+Holiday -2023-05-13
+Holiday -2023-05-14
+Extract Operation for2023-05-15
+Transformted Data:SMA -122.367LMA -122.852
+Load operation output:data=[{'Date': '2023-05-15', 'SMA': 122.367, 'LMA': 122.852, 'created_at': '2023-05-26T16:07:14.141914+00:00'}] count=None
+Extract Operation for2023-05-16
+Transformted Data:SMA -123.220LMA -122.682
+Load operation output:data=[{'Date': '2023-05-16', 'SMA': 123.22, 'LMA': 122.682, 'created_at': '2023-05-26T16:07:14.498811+00:00'}] count=None
+Extract Operation for2023-05-17
+Transformted Data:SMA -124.177LMA -122.908
+Load operation output:data=[{'Date': '2023-05-17', 'SMA': 124.177, 'LMA': 122.908, 'created_at': '2023-05-26T16:07:14.869189+00:00'}] count=None
+Extract Operation for2023-05-18
+Transformted Data:SMA -125.107LMA -123.266
+Load operation output:data=[{'Date': '2023-05-18', 'SMA': 125.107, 'LMA': 123.266, 'created_at': '2023-05-26T16:07:15.222319+00:00'}] count=None
+Extract Operation for2023-05-19
+Transformted Data:SMA -126.373LMA -123.627
+Load operation output:data=[{'Date': '2023-05-19', 'SMA': 126.373, 'LMA': 123.627, 'created_at': '2023-05-26T16:07:15.564429+00:00'}] count=None
+Holiday -2023-05-20
+Holiday -2023-05-21
+Extract Operation for2023-05-22
+Transformted Data:SMA -126.970LMA -124.037
+Load operation output:data=[{'Date': '2023-05-22', 'SMA': 126.97, 'LMA': 124.037, 'created_at': '2023-05-26T16:07:16.636254+00:00'}] count=None
+Extract Operation for2023-05-23
+Transformted Data:SMA -127.647LMA -124.738
+Load operation output:data=[{'Date': '2023-05-23', 'SMA': 127.647, 'LMA': 124.738, 'created_at': '2023-05-26T16:07:16.985708+00:00'}] count=None
+Extract Operation for2023-05-24
+Transformted Data:SMA -127.120LMA -125.104
+Load operation output:data=[{'Date': '2023-05-24', 'SMA': 127.12, 'LMA': 125.104, 'created_at': '2023-05-26T16:07:17.353557+00:00'}] count=None
+Extract Operation for2023-05-25
+Transformted Data:SMA -126.873LMA -125.690
+Load operation output:data=[{'Date': '2023-05-25', 'SMA': 126.873, 'LMA': 125.69, 'created_at': '2023-05-26T16:12:05.021842+00:00'}] count=None
+Extract Operation for2023-05-26
+Transformted Data:SMA -126.873LMA -125.690
+Load operation output:data=[{'Date': '2023-05-26', 'SMA': 126.873, 'LMA': 125.69, 'created_at': '2023-05-27T04:37:54.880127+00:00'}] count=None
+Extract Operation for2023-05-26
+Transformted Data:SMA -127.110LMA -126.295
+Load operation output:data=[{'Date': '2023-05-26', 'SMA': 127.11, 'LMA': 126.295, 'created_at': '2023-05-27T04:49:50.296655+00:00'}] count=None
